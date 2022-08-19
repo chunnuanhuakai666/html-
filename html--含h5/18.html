@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="/demo" id="demo">
+        <!-- 字段 -->
+        <input type="hidden" name="color" value="red">
+        <!-- 输入框 -->
+        <input type="text" value="请输入用户名">
+        <!-- 提示信息 -->
+        <input type="text" placeholder="请输入用户名">
+        <hr>
+        <!-- 自动获取焦点 -->
+        <input type="text" autofocus>
+        <!-- 智能感应 -->
+        <input type="text" list="color">
+        <datalist id="color">
+            <option>red</option>
+            <option>pink</option>
+            <option>green</option>
+            <option>orange</option>
+            <option>yellowgreen</option>
+            <option>yellow</option>
+            <option>gold</option>
+        </datalist>
+        <!-- 提交按钮 -->
+        <!-- <button>提交</button> -->
+    </form>
+    <!-- 表单外面定义按钮 -->
+    <button form="demo">提交</button>
+    <hr>
+    <!-- 表单控件类型 -->
+    <form action="">
+        <input type="search">
+        <input type="tel">
+        <input type="url">
+        <input type="number">
+        <input type="email">
+        <input type="range">
+        <input type="date">
+        <input type="week">
+        <input type="color">
+        <input type="text">
+        <button>提交</button>
+    </form>
+</body>
+</html>
+
+
+<!-- 智能感应这是个好东西啊，把option里面内容换了做一个只属于自己的查询网页，下面是模板 -->
+
+<input type="text" list="color">
+        <datalist id="color">
+            <option>老大电话 156456</option>
+            <option>老二电话 15641561</option>
+            <option></option>
+            <option></option>
+            <option></option>
+            <option></option>
+            <option></option>
+        </datalist>
+
+
+

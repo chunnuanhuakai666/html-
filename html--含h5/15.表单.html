@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- 表单 -->
+    <form action="/360极速浏览器下载/_blank">
+        <!--?nickname=ickt&intro111=efwfwef -->
+        <!-- 在提交的数据中，=前面的代表数据名称（nmae） =后面的代表数据值（valun） -->
+        <!-- ?数据的开始    &链接俩组数据 -->
+        <!-- 用户名 -->
+        <label for="username">用户名</label>
+        <!-- name代表字段名称，value代表字段的值 -->
+        <!-- disabled禁用表单控件 -->
+        <br>
+        <input type="text" disabled name="nickname" value="ickt">
+        <!-- readonly只读 -->
+        <br>
+        <label for="">只读</label>
+        <input type="text" readonly>
+        <!-- 必填项 -->
+        <br>
+        <label for="">必填项</label>
+        <input type="text" required>
+        <br>
+        <!-- 长度 -->
+        <label for="">长度不能大于8不能小于4</label>
+        <input type="text" minlength="4" maxlength="8">
+        <br>
+        <!-- 介绍 -->
+        <label for="intro">简介</label>
+        <!-- 自动获取     placeholder占位符-->
+        <textarea autofocus name="intro111" id="intro" cols="30" rows="10" placeholder="请输入描述的信息"></textarea>
+        <hr>
+        <button>提交</button>
+    </form>
+</body>
+</html>
+
+
+<!-- 一些限制的写法，在用户名与密码的填写中常用 -->

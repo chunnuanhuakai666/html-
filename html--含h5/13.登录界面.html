@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body background="./picture/2.jpg" >
+    <form>
+    <label for="username">用户名</label>
+    <!-- 单行文本框     pattern  0到9  2到5位数字-->
+    <input type="text" id="username" pattern="{0-9}{2,5}" value="hello">
+    <br>
+    <!-- 密码框 -->
+    <label for="password">密码框</label>
+    <input type="password" name="" id  ="password">
+    <br>
+    <!-- 单选框 -->
+    <label for="">性别</label>
+    <label for="man">男</label>
+    <input type="radio" name="sex" id="man" value="男">
+    <label for="woman">女</label>
+    <input type="radio" name="sex" id="woman" value="女">
+    <br>
+    <!-- 多选框 -->
+    <label for="">喜欢的角色</label>
+    <br>
+    <label for="linghua">凌华</label>
+    <input type="checkbox" name="intrest" value="凌华" id="linghua">
+    <label for="ying">荧</label>
+    <input type="checkbox" name="intrest" value="荧" id="ying">
+    <label for="lisha">丽莎</label>
+    <input type="checkbox" name="intrest" value="丽莎" id="lisha">
+    <!-- 图片 -->
+    <input type="image"= src="C:\Users\yang\Pictures\Saved Pictures\15965907748378935.jpg" width="200" height="100" name="" id="">
+    <br>
+    <!-- 文件 -->
+    <input type="file" name="  " id="">
+    <!-- 隐藏文本 -->
+    <input type="hidden" name="color" value="red">
+    <br>
+    <!-- 按钮 -->
+    <input type="button" value="普通按钮">    
+    <br>
+    <!-- 重置按钮 -->
+    <input type="reset" value="重置">
+    <!-- 提交按钮 -->
+    <br>
+    <input type="submit" value="提交">
+   </form>
+</body>
+</html>
+
+
+<!-- 一个简单的登录页面，个人感觉好看的背景图片是关键 -->

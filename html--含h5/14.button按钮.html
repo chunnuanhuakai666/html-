@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+        <!-- 文本框 -->
+        <input type="text" name="username" id="" value="hello">
+        <br>
+        <input type="text">
+        <br>
+        <!-- 按钮有三种类型button普通   submit提交按钮  reset重置按钮 -->
+        <!-- 不设置标签ie低版本默认与button一样，标准浏览器与submit一样 -->
+        <button>按钮</button>
+        <br>
+        <!-- 普通按钮 -->
+        <button type="button">普通按钮</button>
+        <br>
+        <!-- 提交按钮 -->
+        <button type="submit">提交</button>
+        <br>
+        <!-- 重置按钮 -->
+        <button type="reset">重置</button>
+        
+        <!-- 与input比较 -->
+        <!-- button在标签之间设置内容，input在value属性中设置内容 -->
+        <!-- button可以渲染其他标签，input不能渲染其他标签 -->
+
+        <button>
+            <a href="www.baidu.com">baidu</a>
+        </button>
+        <input type="button" value="<a href="www.baidu.com">baidu</a>">
+    
+    </form>
+</body>
+</html>
+
+
+<!-- 关于input type = button 与 button
+这篇文章说到不错https://blog.csdn.net/line233/article/details/90071407 -->
